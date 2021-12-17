@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build",
+    "site":"vue-kam-todo",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
